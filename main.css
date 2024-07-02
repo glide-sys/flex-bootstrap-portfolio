@@ -1,0 +1,87 @@
+.gradient-background {
+    background: linear-gradient(350deg, #FF204E, #A0153E, #5D0E41);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    
+  }
+
+  [data-bs-theme=light] {
+    
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .btn-primary{
+
+    
+  }
+
+
+.Main{
+  
+  align-items: center;
+  text-align: center;
+  color: #A0153E;
+  background-color: #00224D;
+  padding-top: 50px;
+  ;
+}
+
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+    background-color: #00224D;
+}
+
+.title-one{
+  height: 8vh;
+  color: #FF204E;
+  text-align: center;
+  background-color: #00224D;
+}
+
+@media (max-width: 1472px){
+    .project-container{
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 55rem;
+        padding-top: 45rem;
+        align-items: center;
+
+    }
+
+}
+
+.headline{
+  color: #00224D;
+}
+.subheadding{
+  color: #00224D;
+}
+
+
+.foot-text{
+  display: flex;
+  background-color: #A0153E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+
+}
+
+
+
+/* 
